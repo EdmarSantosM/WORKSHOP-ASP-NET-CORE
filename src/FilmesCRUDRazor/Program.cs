@@ -12,8 +12,6 @@ builder.Services.AddRazorPages();
 // Configuração do Contexto e String de conexão
 builder.Services.AddDbContext<FilmeContext>(options => options.UseSqlite(builder.Configuration.GetConnectionString("FilmeContext")));
 
-
-
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
