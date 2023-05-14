@@ -17,16 +17,16 @@
          <table class="table">
             <thead>
                <tr>
-                  <th>
+                  <th class="text-center">
                      @Html.DisplayNameFor(model => model.Filme[0].Titulo)
                   </th>
-                  <th>
+                   <th class="text-center">
                      @Html.DisplayNameFor(model => model.Filme[0].DataLancamento)
                   </th>
-                  <th>
+                   <th class="text-center">
                      @Html.DisplayNameFor(model => model.Filme[0].Genero)
                   </th>
-                  <th>
+                   <th class="text-center">
                      @Html.DisplayNameFor(model => model.Filme[0].Preco)
                   </th>
                   <th></th>
@@ -36,19 +36,19 @@
                @foreach (var item in Model.Filme)
                {
                <tr>
-                  <td>
+                  <td class="text-center">
                      @Html.DisplayFor(modelItem => item.Titulo)
                   </td>
-                  <td>
+                  <td class="text-center">
                      @Html.DisplayFor(modelItem => item.DataLancamento)
                   </td>
-                  <td>
+                  <td class="text-center">
                      @Html.DisplayFor(modelItem => item.Genero)
                   </td>
-                  <td>
+                  <td class="text-center">
                      @Html.DisplayFor(modelItem => item.Preco)
                   </td>
-                  <td>
+                  <td class="text-center">
                      <a class="btn btn-sm btn-outline-warning" asp-page="./Edit" asp-route-id="@item.FilmeId">
                      <span class=""> Editar</span></a>
                      <a class="btn btn-sm btn-outline-info" asp-page="./Details" asp-route-id="@item.FilmeId">
