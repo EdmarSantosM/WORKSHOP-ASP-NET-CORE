@@ -1,6 +1,10 @@
 html {
   font-size: 14px;
+  color: white;
+  
 }
+
+
 
 @media (min-width: 768px) {
   html {
@@ -19,4 +23,26 @@ html {
 
 body {
   margin-bottom: 60px;
+  background-color:black;
+
+}
+
+.text-center {
+  color: white;
+}
+
+.col-sm-2, .col-sm-10 {
+  color: white;
+}
+
+h3 {
+  color: blue;
+}
+
+h4 {
+ color: red;
+}
+
+label {
+  color: white;
 }
