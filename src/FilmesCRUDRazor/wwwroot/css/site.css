@@ -54,3 +54,7 @@ label {
 footer, nav {
   background-color: black;
 }
+
+.nome {
+  color: white;
+}
