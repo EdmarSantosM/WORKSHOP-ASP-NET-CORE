@@ -18660,6 +18660,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\Aluno\\Desktop\\vsCode\\ASP-NET-CORE-WORKSHOP\\WORKSHOP-ASP-NET-CORE\\src\\FilmesCRUDRazor\\Pages\\Shared\\About.cshtml",
+      "TargetPath": "Pages\\Shared\\About.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\Aluno\\Desktop\\vsCode\\ASP-NET-CORE-WORKSHOP\\WORKSHOP-ASP-NET-CORE\\src\\FilmesCRUDRazor\\Pages\\Privacy.cshtml",
       "TargetPath": "Pages\\Privacy.cshtml",
       "FileKind": "mvc"
@@ -18682,6 +18687,11 @@
     {
       "FilePath": "c:\\Users\\Aluno\\Desktop\\vsCode\\ASP-NET-CORE-WORKSHOP\\WORKSHOP-ASP-NET-CORE\\src\\FilmesCRUDRazor\\Pages\\_ViewImports.cshtml",
       "TargetPath": "Pages\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Aluno\\Desktop\\vsCode\\ASP-NET-CORE-WORKSHOP\\WORKSHOP-ASP-NET-CORE\\src\\FilmesCRUDRazor\\Pages\\Shared\\Contact.cshtml",
+      "TargetPath": "Pages\\Shared\\Contact.cshtml",
       "FileKind": "mvc"
     },
     {
