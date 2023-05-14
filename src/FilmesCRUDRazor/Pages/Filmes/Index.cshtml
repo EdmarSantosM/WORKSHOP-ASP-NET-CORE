@@ -6,14 +6,13 @@
 }
 
 
-
 <div class="container">
    <div class="row">
       <div class="col-md-12">
          <p>
             <a class="btn btn-sm btn-outline-primary" asp-page="Create">
-                <span class=""> Adicionar Filme</span>  <!-- Adicionar  icones -->
-                </a>
+               <span class=""> Adicionar Filme</span>  <!-- Adicionar  icones -->
+            </a>
          </p>
          <table class="table">
             <thead>
@@ -50,16 +49,12 @@
                      @Html.DisplayFor(modelItem => item.Preco)
                   </td>
                   <td>
-                    
-                    <a class="btn btn-sm btn-outline-warning" asp-page="./Edit" asp-route-id="@item.FilmeId">
-                    <span class=""> Editar</span></a>
-
-                    <a class="btn btn-sm btn-outline-info" asp-page="./Details" asp-route-id="@item.FilmeId">
-                    <span class=""> Detalhes</span></a>
-
-                    <a class="btn btn-sm btn-outline-danger" asp-page="./Delete" asp-route-id="@item.FilmeId">
-                    <span class=""> Excluir</span></a>
-
+                     <a class="btn btn-sm btn-outline-warning" asp-page="./Edit" asp-route-id="@item.FilmeId">
+                     <span class=""> Editar</span></a>
+                     <a class="btn btn-sm btn-outline-info" asp-page="./Details" asp-route-id="@item.FilmeId">
+                     <span class=""> Detalhes</span></a>
+                     <a class="btn btn-sm btn-outline-danger" asp-page="./Delete" asp-route-id="@item.FilmeId">
+                     <span class=""> Excluir</span></a>
                   </td>
                </tr>
                }
@@ -68,3 +63,4 @@
       </div>
    </div>
 </div>
+
