@@ -40,7 +40,9 @@
     
     <form method="post">
         <input type="hidden" asp-for="Filme.FilmeId" />
-        <input type="submit" value="Delete" class="btn btn-danger" /> |
-        <a asp-page="./Index">Back to List</a>
+
+        <input type="submit" value="Excluir" class="btn btn-sm btn-outline-danger" /> 
+           <a class="btn btn-sm btn-outline-info" asp-page="./Index">
+         <span class=""> Retornar a Lista</span></a>
     </form>
 </div>

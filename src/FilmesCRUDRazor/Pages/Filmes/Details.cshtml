@@ -38,6 +38,12 @@
     </dl>
 </div>
 <div>
-    <a asp-page="./Edit" asp-route-id="@Model.Filme?.FilmeId">Edit</a> |
-    <a asp-page="./Index">Back to List</a>
+  
+        
+         <a class="btn btn-sm btn-outline-warning" asp-page="./Edit" asp-route-id="@Model.Filme?.FilmeId">
+         <span class=""> Editar</span> </a>
+    
+         <a class="btn btn-sm btn-outline-info" asp-page="./Index">
+         <span class=""> Retornar a Lista</span></a>
+   
 </div>
