@@ -20,7 +20,7 @@ namespace FilmesCRUDRazor.Pages.Filmes
             _context = context;
         }
 
-        public IList<Filme> Filme { get;set; }// = default!;
+        public IList<Filme> Filme { get;set; } = default!;
 
         public SelectList Generos;
 
@@ -43,8 +43,9 @@ namespace FilmesCRUDRazor.Pages.Filmes
             var filmes =  from f in _context.Filme
                             select f;
 
-            if(!String.IsNullOrEmpty(buscaPorGeneroNome))
+            if(!String.IsNullOrEmpty(buscaPorGeneroNome)) 
             {
+                
                 filmes = filmes.Where(b => b.Titulo.Contains(buscaPorGeneroNome));
             }
             #endregion
@@ -58,12 +59,10 @@ namespace FilmesCRUDRazor.Pages.Filmes
 
             #endregion
 
+                Generos = new SelectList(await queryGenero.Distinct().ToListAsync());
+                Filme = await filmes.ToListAsync();
 
-
-            if (_context.Filme != null)
-            {
-                Filme = await _context.Filme.ToListAsync();
-            }
+          
         }
     }
 }
