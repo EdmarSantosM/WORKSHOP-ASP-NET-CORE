@@ -58,3 +58,14 @@ footer, nav {
 .nome {
   color: white;
 }
+
+.footer {
+  font-size: small;
+}
+
+h6 {
+  color: blue;
+}
+.frases, .nome {
+  color: lightblue;
+}
