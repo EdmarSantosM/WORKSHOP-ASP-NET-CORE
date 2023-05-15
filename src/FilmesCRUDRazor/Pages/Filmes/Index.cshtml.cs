@@ -20,7 +20,7 @@ namespace FilmesCRUDRazor.Pages.Filmes
 
         public IList<Filme> Filme { get;set; } = default!;
 
-        public async Task OnGetAsync()
+        public async Task OnGetAsync( string buscaPorGeneroNome)
         {
             if (_context.Filme != null)
             {
