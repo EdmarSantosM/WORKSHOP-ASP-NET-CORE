@@ -55,7 +55,7 @@ footer, nav {
   background-color: black;
 }
 
-.nome {
+.nome, .principal{
   color: white;
 }
 
@@ -65,7 +65,4 @@ footer, nav {
 
 h6 {
   color: blue;
-}
-.frases, .nome {
-  color: lightblue;
 }
